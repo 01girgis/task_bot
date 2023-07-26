@@ -24,6 +24,10 @@ def manin():
  def answer_question(user_question: str) -> str: 
        agent.run(user_question)
 
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
+# char_spliter  = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap = 0)
+# chunk = char_spliter.create_documents(docs)
+# ##print(len(chunk))
 
 ### data process loop
  while input != "quit()":
